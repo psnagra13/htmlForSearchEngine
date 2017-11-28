@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Search Engine</title>
+</head>
+
+<style>
+input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+margin-left:14%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+margin-left:38%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+</style>
+
+
+
+
+
+
+
+<body>
+
+<img src="2.jpg" alt="logo" style="margin-top: 50px ; margin-left:35%;width:30%;height:128px;">
+
+<div  style="margin-top: 10px;margin-left:0%">
+
+<form action="/action_page.php">
+  <br> <input type="text" name="query" placeholder="Type Your Query Here"><br>
+ 
+  <input type="submit" value="Submit">
+</form>
+
+
+
+</div>
+</body>
+</html>
